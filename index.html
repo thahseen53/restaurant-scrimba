@@ -1,0 +1,47 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <!-- stylesheet -->
+       <link rel="stylesheet" href="index.css">
+       
+    </head>
+    <body>
+        <header>
+            <h1>
+                Thahsi's Dinner
+            </h1>
+            <p class='tag'>The bedt burgers and pizza's in town</p>
+        </header>
+        <main>
+            <div id="menu"></div>
+        </main>
+        
+        <section id="order-container" class="order-container">
+            <h2>Your Order</h2>
+            <div class="order-items" id="orders"></div>
+            <div class="order-list">
+                <h3>Total price :</h3>
+                <h3 class="item-price total" id="total"></h3>
+            </div>
+            <button class="order-btn" id="order-btn">Complete order</button>
+        </section>
+        
+        <section class="modal" id="modal">
+            <h2>Enter card details</h2>
+            <form>
+                <input type="text" placeholder="Enter your name" id="name" required/>
+                <input type="text" placeholder="Enter Card number" id="card-number" required/>
+                <input type="password" placeholder="Enter CVV" id="cvv" required/>
+                <button type="submit" class="pay" id="submit-btn">Pay</button>
+            </form>
+        </section>
+        <section id="thanks-container" class="thanks-container">
+            <div class="thanks-div" id="thanks-div"></div>
+        </section>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+

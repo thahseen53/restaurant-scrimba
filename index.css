@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Smythe', cursive;
+} 
+button{
+    cursor: pointer;
+}
+header{
+    background: url(images/header-image-restaurant.jpg);
+    background-size:cover;
+    height: 167px;
+    background-position: center;
+    
+    color: whitesmoke;
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+h1,.tag{
+    margin:0;
+    margin-left:60px;
+
+}
+h1{
+    font-size: 39px;
+}
+.tag{
+    font-size: 22px;
+}
+h2{
+    font-size: 30px;
+}
+main{
+    width: 600px;
+    padding: 30px;
+}
+.menu-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    border-bottom: 2px solid lightgray;
+}
+.menu-item-details{
+    display: flex;
+}
+.icon{
+    font-size: 77px;
+}
+.details{
+    margin-left:20px;
+}
+p,span{
+    margin:5px;
+}
+span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.add-btn{
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    width: 50px;
+    height: 50px;
+    color: black;
+    font-size: 30px;
+    background-color: transparent;
+}
+.order-container{
+    width: 600px;
+    text-align: center;
+    display: none;
+}
+
+.order-items{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-bottom:3px solid #393333;
+}
+
+.order-list{
+    width:100%;
+    display:flex;
+    align-items: center;
+    position: relative;
+}
+h3{
+    font-size: 25px;
+}
+.remove-btn{
+    margin-left:10px;
+    color: #BBBBBB;
+    font-size: 12px;
+    background: transparent;
+    border:none;
+}
+.item-price{
+    position: absolute;
+    right:5px;
+}
+.total{
+    font-weight: bold;
+}
+.order-btn,.pay{
+    width:95%;
+    margin:5px;
+    padding:15px 0;
+    background: #16DB99;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:none;
+    color:#FFFFFF;
+    border-radius:6px;
+}
+.modal{
+    width:520px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #ffffff;
+    padding:50px 10px;
+    position: absolute;
+    margin: 0 auto;
+    display: none;
+    box-shadow: 1px 1px 48px 6px rgba(0,0,0,0.75);
+}
+.modal h2{
+    padding-bottom:15px;
+    font-size: 17px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+    margin: 20px;
+}
+input{
+    padding:17px;
+    margin:5px;
+    color:#757575;
+}
+.thanks-container{
+    display: none;
+    width:600px;
+    text-align: center;
+}
+.thanks{
+    width:90%;
+    color:#065F46;
+    padding: 8px;
+    background: #ECFDF5;
+}
+h5{
+    font-size: 32px;
+}
