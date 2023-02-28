@@ -18,4 +18,7 @@ The Frontend Developer Career Path aims to teach you everything you need to beco
 - [The Frontend Career Path](https://scrimba.com/learn/frontend)
 - [Become a Scrimba Pro member](https://scrimba.com/pricing)
 
+
+[live site ](https://warm-pony-f57864.netlify.app/) built by [thahseen53](https://github.com/thahseen53)
+
 Happy Coding!
